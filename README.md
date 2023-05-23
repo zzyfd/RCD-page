@@ -6,9 +6,11 @@ Project page for paper "Real-time Controllable Denoising for Image and Video" pu
 
 
 <img src="demo-rcd-small_2.gif" alt="features" width="1000"  class="center" />
+
 <video width="320" height="240" controls>
   <source src="Demo_RCD_small.mp4" type="video/mp4">
 </video>
+
 
 ## Abstract
 Controllable image denoising aims to generate clean samples with human perceptual priors and balance sharpness and smoothness. 
