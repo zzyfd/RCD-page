@@ -1,7 +1,6 @@
 
 
-# Cached Transformers
-This annoymous repo contains introductions and codes of paper "Cached Transformers: Improving Vision Transformers with Differentiable Memory Cache ".
+# Real-time Controllable Denoising for Image and Video
  
 
 ## Introduction
