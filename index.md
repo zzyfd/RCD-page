@@ -12,7 +12,7 @@ In this work, we propose a novel family of Transformer model, called Cached Tran
 We look into this behavior in image classification and find that GRC can separate features into two parts, attending over caches yielding instance-invariant 
 features, as well as attending over self yielding instance-specific features (See visualizations Below}).
 
-<img src="ct-public.gif" alt="features" width="1000"  class="center" />
+<img src="demo-rcd-small_2.gif" alt="features" width="1000"  class="center" />
 
 
 #### Results
