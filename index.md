@@ -1,23 +1,20 @@
 
 
 # Real-time Controllable Denoising for Image and Video
- 
-
-## Introduction
-In this work, we propose a novel family of Transformer model, called Cached Transformer, which has a gated recurrent caches (GRC), a lightweight and flexible widget enabling Transformers to access the historical knowledge.
+Project page for paper "Real-time Controllable Denoising for Image and Video" published in CVPR 2023.
 
 
 
-#### Behavior
-We look into this behavior in image classification and find that GRC can separate features into two parts, attending over caches yielding instance-invariant 
-features, as well as attending over self yielding instance-specific features (See visualizations Below}).
-
-<img src="demo-rcd-small_2.gif" alt="features" width="1000"  class="center" />
+https://github.com/zzyfd/RCD-page/assets/13939478/0f75950f-bb72-45f0-9a80-f882de7a5c50
 
 
-#### Results
- We conduct extensive experiments on more than **ten** representative Transformer networks from both vision and language tasks, including long range arena, image classification, object detection, instance segmentation, and machine translation. The results demonstrate that our approach significantly improves performance of recent Transformers. 
- 
+## Abstract
+Controllable image denoising aims to generate clean samples with human perceptual priors and balance sharpness and smoothness. 
+In traditional filter-based denoising methods, it can be easily achieved by adjusting filtering strength. For NN (Neural Network)-based models, we usually need to perform network inference each time we want to adjust the final denoising strength, which makes it almost impossible for real-time user interaction. 
+In this paper, we present Real-time Controllable Denoising (RCD), the first deep image and video denoising pipeline which provides fully controllable user interface to edit arbitrary denoising level in real-time with only one-time network inference. 
+Unlike existing controllable denoising methods, our RCD does not require multiple denoisers and training stages. It replaces the last output layer (usually outputs a single noise map) of an existing CNN-based model with a lightweight module, which outputs multiple noise maps. A novel Noise Decorrelation process is proposed to enforce the orthogonality of the noise feature maps. As a result, we can facilitate arbitrary noise level control by noise map interpolation. This process is network-free and doesn't require network inference. The experiments show that our RCD can enable real-time editable image and video denoising for various existing heavy-weight models without sacrificing their original performance.
+
+
   
 
 ##### ImageNet Results
@@ -78,6 +75,5 @@ With above postulates, we can attempt to explain the regularity of $\sigma(\lamb
 ## Core Codes
 The pytorch implementation of GRC-Attention module is provided in "core" directory. 
 Full training and testing codes will be released later. 
-
 
 
