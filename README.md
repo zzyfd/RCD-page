@@ -4,9 +4,8 @@
  
 Project page for paper "Real-time Controllable Denoising for Image and Video" published in CVPR 2023.
 
-
-
-<video width="1000" controls>
+![](Demo_RCD_small.mp4)
+<video width="320" height="240" controls>
   <source src="Demo_RCD_small.mp4" type="video/mp4">
 </video>
 
