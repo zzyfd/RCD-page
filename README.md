@@ -1,15 +1,13 @@
 
 
 # Real-time Controllable Denoising for Image and Video
- 
 Project page for paper "Real-time Controllable Denoising for Image and Video" published in CVPR 2023.
 
 
 
-<video src="https://drive.google.com/file/d/1cpYEz42kmtv9jgYLSv1vLWAiwl07zocb/view?usp=share_link">
-<video src="https://user-images.githubusercontent.com/13440061/129455220-23fa27a2-c8f0-4953-b291-b4893959d5d9.mp4">
- 
- 
+https://github.com/zzyfd/RCD-page/assets/13939478/0f75950f-bb72-45f0-9a80-f882de7a5c50
+
+
 ## Abstract
 Controllable image denoising aims to generate clean samples with human perceptual priors and balance sharpness and smoothness. 
 In traditional filter-based denoising methods, it can be easily achieved by adjusting filtering strength. For NN (Neural Network)-based models, we usually need to perform network inference each time we want to adjust the final denoising strength, which makes it almost impossible for real-time user interaction. 
