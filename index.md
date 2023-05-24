@@ -1,6 +1,6 @@
 
 
-# Project page for paper "Real-time Controllable Denoising for Image and Video" published in CVPR 2023.
+### Project page for paper "Real-time Controllable Denoising for Image and Video" published in CVPR 2023.
 
 <video src="https://github.com/zzyfd/RCD-page/assets/13939478/0f75950f-bb72-45f0-9a80-f882de7a5c50" controls="controls" width="1000">
 </video>
