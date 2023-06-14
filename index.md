@@ -43,7 +43,7 @@ Unlike existing controllable denoising methods, our RCD does not require multipl
 ### Video Denoising (AutoTune)
 <img src="Fig/video_res.png" alt="video_res" width="1000"  class="center" />
 
-### Citation
+## Citation
 If you find our paper useful for your research, please consider citing our work :blush: : 
 ```
 @InProceedings{Zhang_2023_CVPR,
