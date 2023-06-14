@@ -1,8 +1,13 @@
 
 # Real-time Controllable Denoising for Image and Video
 
+#### Zhaoyang Zhang, Yitong Jiang, Wenqi Shao, Xiaogang Wang, Ping Luo, Kaimo Lin, Jinwei Gu
+
+
 Project page for paper "[Real-time Controllable Denoising for Image and Video](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Real-Time_Controllable_Denoising_for_Image_and_Video_CVPR_2023_paper.pdf)" published in CVPR 2023.
 
+
+## Demo Video
 <video src="https://github.com/zzyfd/RCD-page/assets/13939478/0f75950f-bb72-45f0-9a80-f882de7a5c50" controls="controls" width="1000">
 </video>
 
@@ -24,7 +29,7 @@ Unlike existing controllable denoising methods, our RCD does not require multipl
 | How noise decorrelation works for noise editting | How to control denoising results using RCD |
 |  ----  | ----  |
 | <img src="Fig/ND.jpg" alt="ND" width="480"  class="center" /> | <img src="Fig/control.png" alt="control" width="480"  class="center" />|
-|With ND block, the covariance of learned noisesis reduced to almost zero, allowing us to derive determined interpolated results with target noise intensity. In contrast, without the Noise Decorrelation block the output noise level can not be guaranteed | Our AutoTune module can generate high-quality results using just the reference control parameters. Users can further improve the result by artificially tuning {ci} around {ci}, even at the same noiselevel.
+|The inclusion of the ND block results in a significant reduction in the covariance of learned noises, effectively driving it towards zero. This reduction enables us to calculate precise interpolated outcomes with the desired noise intensity. On the contrary, in the absence of the Noise Decorrelation block, the level of output noise cannot be assured.  | Our AutoTune module is capable of producing top-notch outcomes by solely utilizing the reference control parameters. Additionally, users have the flexibility to enhance the results even further by manually adjusting the ${c_i}$ values around ${\bar{c_i}}$ , all while maintaining the same level of noise.
 
 ## Visulizations
 
@@ -37,3 +42,17 @@ Unlike existing controllable denoising methods, our RCD does not require multipl
 
 ### Video Denoising (AutoTune)
 <img src="Fig/video_res.png" alt="video_res" width="1000"  class="center" />
+
+### Citation
+If you find our paper useful for your research, please consider citing our work :blush: : 
+```
+@InProceedings{Zhang_2023_CVPR,
+    author    = {Zhang, Zhaoyang and Jiang, Yitong and Shao, Wenqi and Wang, Xiaogang and Luo, Ping and Lin, Kaimo and Gu, Jinwei},
+    title     = {Real-Time Controllable Denoising for Image and Video},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {14028-14038}
+}
+```
+
